@@ -12,8 +12,7 @@ function main (){
 
  $("#show-me").css("display", "block");
 
- const name = $('input').val();
- $('h1').html("Welcome " + name );
+ $('h1').html("Welcome " + $('input').val());
 
  }
 
